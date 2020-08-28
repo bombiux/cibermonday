@@ -1,0 +1,240 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+section.moda {
+  display: flex;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+#main-h { 
+ 
+  background-size:cover;
+    background: url(../img/logosept.jpg) bottom no-repeat, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQYV2NkwAIY8Qr+///fl5GRcTNIEX6VyMYAANDMBAYBjpzVAAAAAElFTkSuQmCC) repeat, linear-gradient(7deg, #253BBF 0%, #33EFF8);
+}
+body{
+ 
+}
+.navbar-item:not(:first-child) {
+    border-left: 1px solid white;
+}
+.negocio:hover .info {
+    top: 0;
+}
+.bod{
+  padding-bottom: 3rem;
+  padding-top: 23rem ;
+}.navbar-dropdown {
+  background: #E7896E;
+}
+
+.logo {
+    position: relative;
+    top: -200px;
+    z-index: -100;
+} 
+
+/* CODIGO QUE HICE */
+.cardt {
+
+  margin: 2vh;
+  height: 232px;
+  width: 273px;
+  -webkit-transform-style:preserve-3d;
+          transform-style:preserve-3d;
+  -webkit-perspective: 700px;
+          perspective: 700px;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+.cardt:hover .card-front {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+}
+.cardt:hover .card-back {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+#datoss{
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+}
+
+.card-front {
+  border: #fff solid 6px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:#E7896E ;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card-back {
+  border: #fff solid 6px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #E7896E;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+  text-align: center;
+}
+.card-back h2 {
+  margin: 15% auto 12% auto;
+  font-size: 26px;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.social-icons{
+ display:inline;
+}
+
+.ooo{
+  width:100%
+}
+
+
+i{
+
+  padding-left: 8px;
+}
+
+#car1{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.logo2{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  padding: 6px;
+  height: 187px;
+}
+.esquina{
+  width: 35%;
+  height: 15%;
+  margin-top: -24px;
+  margin-left: auto;
+}
+
+.fab:hover{
+  color:white;
+}
+
+a{
+  color: white;
+}
+a i.fab {
+  color: #fff;
+}
+.block{
+  margin-top: 15px;
+}
+
+.pink {
+  background-color: #bc0923!important;
+}  
+.is-mobile {
+  display: flex;
+  justify-content: center;
+  
+}
+.button{
+  
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.buttons{
+ 
+  margin-top: 15px;
+      display: flex;
+      width: 80vw;
+    }
+.buttons.is-centered:not(.has-addons) .button:not(.is-fullwidth) {
+      background: #E7896E;
+    }
+  
+  .mod {
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      
+  }
+
+@media (max-width: 600px) {
+.mod{
+  font-size: 15px !important;  
+  flex:1 1 30%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+#datos{
+  justify-content:none;
+}
+.cardt{
+  margin: 15px;
+  height: 195px;
+  width: 146px;
+}
+.card-back h2 {
+  margin: 15% auto 12% auto;
+  font-size: 16px;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+  #main-h{
+    background-size: 696px;
+    margin-top: -111px;
+
+  }
+  .bod {
+    padding-bottom: 8rem;
+    padding-top: 17rem;
+}
+.buttons {
+  margin-top: -1px;
+  display: flex;
+  width: 102vw;
+} 
+
